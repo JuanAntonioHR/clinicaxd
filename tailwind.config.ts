@@ -10,6 +10,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      flex: {
+        'appointmentCard': '1 0 0'
+      },
+      colors: {
+        'background_green': '#31723417',
+      },
       keyframes: {
         hide: {
           from: { opacity: "1" },

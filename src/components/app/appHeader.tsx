@@ -3,7 +3,7 @@ import { Button } from "../button";
 export default function AppHeader({metadata} : { metadata: {title: string}}) {
 
     return (
-        <div className="flex flex-col items-start gap-6 self-stretch">
+        <div className="flex flex-col items-start gap-6 self-stretch py-6">
             <div className="flex justify-between items-center self-stretch">
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-1">
